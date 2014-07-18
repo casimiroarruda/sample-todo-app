@@ -1,0 +1,6 @@
+<?php
+return [
+    'title' => 'Sample :: ToDo',
+    'templates' => __DIR__ . '/resources/templates',
+    'datastore' => "/tmp/sample-todo/"
+];
