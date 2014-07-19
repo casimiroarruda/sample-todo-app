@@ -1,7 +1,7 @@
 <?php
-namespace PHPSP\ToDo\Controller;
+namespace SampleToDo\ToDo\Controller;
 
-use PHPSP\ToDo\Service\Render;
+use SampleToDo\ToDo\Service\Render;
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 

@@ -1,5 +1,5 @@
 <?php
-namespace PHPSP\ToDo\Entity;
+namespace SampleToDo\ToDo\Entity;
 
 class Task
 {

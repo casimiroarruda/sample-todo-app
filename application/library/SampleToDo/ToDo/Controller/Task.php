@@ -1,16 +1,17 @@
 <?php
-namespace PHPSP\ToDo\Controller;
+namespace SampleToDo\ToDo\Controller;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
+use SampleToDo\ToDo\Entity\Task as Entity;
 
 class Task
 {
     public function add(Request $request, Application $application)
     {
         $mapper = $application['mapper']['task'];
-        $task = new \PHPSP\ToDo\Entity\Task;
+        $task = new Entity;
         $task->setTitle($request->get('title'));
         $task->setDescription($request->get('description'));
         $transaction = $mapper->save($task);

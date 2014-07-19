@@ -11,14 +11,12 @@
     ],
     "require":{
         "php":">=5.4.0",
-        "monolog/monolog":"1.9@stable",
         "silex/silex":"v1.2.0",
-        "google/apiclient":"1.0.4-beta",
-        "drakojn/io":"0.1.0"
+        "drakojn/io":"0.1.1"
     },
     "autoload":{
         "psr-4":{
-            "PHPSP\\":"application/library/PHPSP/"
+            "SampleToDo\\":"application/library/SampleToDo/"
         }
     }
 }

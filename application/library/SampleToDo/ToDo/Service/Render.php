@@ -1,5 +1,5 @@
 <?php
-namespace PHPSP\ToDo\Service;
+namespace SampleToDo\ToDo\Service;
 
 class Render implements \ArrayAccess
 {
